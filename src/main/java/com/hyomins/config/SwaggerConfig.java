@@ -28,11 +28,12 @@ public class SwaggerConfig {
                 .build();
     }
     private ApiInfo apiInfo(){
-
+        System.out.println(1);
         return new ApiInfoBuilder().title("我的接口文档")
                 .contact(new Contact("chenjun","","228974823@qq.com"))
                 .description("这是我的接口文档")
                 .version("1.1.0.0")
                 .build();
+
     }
 }
